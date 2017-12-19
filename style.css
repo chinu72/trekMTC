@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body,html
+{
+    overflow-x: hidden;
+}
+body
+{
+    font-family: Arial,helvetica,sans-serif;
+}
+::-webkit-scrollbar
+{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #a6a6a6;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    
+}
+.header-area
+{
+    position: relative;
+}
+.header-area .slider-area, .header-area .carousel, .header-area carousel-inner, .header-area .item
+{
+    height: 100%;
+}
+a:hover
+{
+    text-decoration: none;
+}
+h2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*===========================
+	---navbar---
+===========================*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+{
+    color:#e8491d;
+    text-decoration: none;
+}
+.item > img
+{
+    width: 100%;
+}
+.navbar-default
+{
+    background-color: transparent;
+    border-color: transparent;
+   
+}
+
+.navbar-header .navbar-brand
+{
+ color: #fff;
+    font-family: Roboto;
+font-size: 15px;
+ padding: 20px;    
+}
+.navabr-default .navbar-brand:hover, .navbar-default .navabr-brand:focus
+{
+    background-color: transparent;
+    text-decoration: none;
+    color: #eee;
+    font-family: Roboto;
+    
+}
+.navbar-brand .highlight
+{
+    font-size: 18px;
+}
+.highlight{
+  color:#e8491d;
+  font-weight:bold;
+  text-transform: uppercase;   
+}
+.affix.navbar-default
+{
+    background: rgba(53,66,74,0.8) none repeat scroll 0 0;
+    border-bottom: #e8491d 2px solid;
+    transition: all 0.8s ease 0s;
+    color: #fff;
+}
+.carousel-caption
+{
+    bottom:40%;
+    color: #fff;
+    text-align: center
+}
+.carousel-caption a
+{
+    font-family: Oxygen;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    margin-top: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.carousel-caption a:hover
+{
+    text-decoration: none;
+    background-color: #fff;
+    color: black;    
+}
+.carousel-inner item
+{
+    height: 100vh;
+}
+.carousel-control .left
+{
+    background-image: none;
+}
+.carousel-control .right
+{
+    background-image: none;
+}
+.carousel-caption > h2
+{
+    font-size: 30px;
+    font-family: Oxygen;
+    text-transform: uppercase;
+}
+.carousel-caption > p
+{
+    line-height: 35px;
+    font-family: Oxygen;
+    font-size: 20px;
+    margin-bottom: 10px; 
+}
+.carousel-caption .left
+{
+    background-image: none;
+}
+.navbar-default .navbar-nav > li > a
+{
+    color: #fff;
+    font-family: Roboto;
+    font-weight: bold;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.affix .navbar-default .navbar-nav > li > a
+{
+    color: #fff; 
+    font-family: Roboto;
+}
+.section-header
+{
+    padding: 30px;
+}
+.section-header > h2
+{  
+    font-size: 25px;
+    margin-bottom: 10px;
+    color:#35424a;
+}
+.section-header > p
+{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.line
+{
+    margin: auto;
+    margin-bottom: 10px;
+    height: 2px;
+    width: 30%;
+    background-color:#e8491d;
+}
+.gallery-area
+{
+    background: #ddd;
+}
+.about-left > h2
+{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: Oxygen;
+}
+.about-right > p
+{
+    line-height: 35px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: Oxygen;
+}
+.about-right img
+{
+    height: 200px;
+}
+.about-right, .about-left
+{
+    padding: 20PX;
+}
+.treks-area
+{
+    margin-top: 10px;
+    background-image: url(trek3.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+    padding-bottom: 50px;
+    
+}
+.single-treks p
+{
+    font-size: 17px;
+    line-height: 25px;
+    
+}
+.single-treks > h3
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.single-treks
+{
+    position: relative;
+}
+.single-treks .trek-img
+{
+    width: 100%;
+    height: 230px;
+    background-size: 100%;
+    transition: 0.5s;
+}
+.single-treks > button
+{
+    text-decoration: none;
+    vertical-align: bottom;
+    background-color: #fff;
+    left: 10px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.single-treks
+{
+    background-color:#fff;
+    font-family:Oxygen;
+    border: 0px solid #fff;
+    border-radius: 4px;
+    height: 500px;
+    margin-bottom: 15px;
+}
+.single-treks .trek-img:hover
+{
+    background-size: 110%;
+  
+}
+.single-treks .trek-img:hover .post
+{
+    height: 230px;
+    
+}
+.single-treks .trek-img .post
+{
+    width: 100%;
+    height: 0px;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    display: flex;
+    overflow:hidden;
+    transition: 0.7s ease;
+}
+.post h3
+{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.single-about
+{
+    padding: 10px;
+}
+.single-about:hover
+{
+    background-color: #f5b6a4;
+}
+.single-about > div
+{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.single-about > h3
+{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.single-about > p
+{
+    line-height: 20px;
+    font-family: Oxygen;
+    font-size: 15px;
+    text-align: left;
+}
+.single-contact
+{
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.single-contact > i
+{
+    font-size: 25px;
+}
+.single-contact:hover
+{
+    background-color: #f5b6a4;
+}
+.follow .section-header > h2
+{
+    color: #fff;
+}
+.followicons > a > i
+{
+    padding: 15px;
+    padding-top: 0;
+    font-size: 35px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.followicons > a > .fa-twitter:hover
+{
+    color: #00aced;
+}
+.followicons > a > .fa-facebook:hover
+{
+    color: #3b5998;
+}
+.followicons > a > .fa-instagram:hover
+{
+    color: #bc2a8d;
+}
+.followicons > a > .fa-google-plus:hover
+{
+    color: #dd4b39;
+}
+.followicons > a > .fa-youtube:hover
+{
+    color: #bb0000;
+}
+
+footer
+{
+  padding:20px;   
+  color:#ffffff;
+  background-color:#35424a;
+  text-align: center;
+}
